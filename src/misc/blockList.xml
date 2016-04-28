@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <block id="0">
+        <name>Grass</name>
+        <durability>5</durability>
+        <pos>0</pos>
+        <popup></popup>
+        <hp>5</hp>
+        <drop>Grass</drop>
+        <dropcount>1</dropcount>
+    </block>
+    <block id="1">
+        <name>Dirt</name>
+        <durability>5</durability>
+        <pos>1</pos>
+        <popup></popup>
+        <hp>5</hp>
+        <drop>Dirt</drop>
+        <dropcount>1</dropcount>
+        <require>Shovel</require>
+    </block>
+    <block id="2">
+        <name>Stone</name>
+        <durability>7</durability>
+        <pos>2</pos>
+        <popup></popup>
+        <hp>10</hp>
+        <drop>Gravel</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="3">
+        <name>Gravel</name>
+        <durability>5</durability>
+        <pos>3</pos>
+        <popup></popup>
+        <hp>5</hp>
+        <drop>Flint</drop>
+        <dropcount>4</dropcount>
+        <require>Shovel</require>
+    </block>
+    <block id="4">
+        <name>Limestone</name>
+        <durability>8</durability>
+        <pos>4</pos>
+        <popup></popup>
+        <hp>10</hp>
+        <drop>Limestone</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="5">
+        <name>Coal Ore</name>
+        <durability>10</durability>
+        <pos>5</pos>
+        <popup></popup>
+        <hp>15</hp>
+        <drop>Coal</drop>
+        <dropcount>2</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="6">
+        <name>Iron Ore</name>
+        <durability>15</durability>
+        <pos>6</pos>
+        <popup></popup>
+        <hp>30</hp>
+        <drop>Magnetite Ore</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="7">
+        <name>Copper Ore</name>
+        <durability>13</durability>
+        <pos>7</pos>
+        <popup></popup>
+        <hp>25</hp>
+        <drop>Oxidized Copper Ore</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="8">
+        <name>Tin Ore</name>
+        <durability>13</durability>
+        <pos>8</pos>
+        <popup></popup>
+        <hp>25</hp>
+        <drop>Raw Tin Ore</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="9">
+        <name>Nickel Ore</name>
+        <durability>18</durability>
+        <pos>9</pos>
+        <popup></popup>
+        <hp>35</hp>
+        <drop>Raw Nickel Ore</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="10">
+        <name>Titanium Ore</name>
+        <durability>22</durability>
+        <pos>10</pos>
+        <popup></popup>
+        <hp>40</hp>
+        <drop>Raw Titanium Ore</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="11">
+        <name>Sulphur Ore</name>
+        <durability>13</durability>
+        <pos>11</pos>
+        <popup></popup>
+        <hp>25</hp>
+        <drop>Sulphur Dust</drop>
+        <dropcount>2</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="12">
+        <name>Silicon-enriched Stone</name>
+        <durability>20</durability>
+        <pos>12</pos>
+        <popup></popup>
+        <hp>15</hp>
+        <drop>Silicon Chunk</drop>
+        <dropcount>2</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="13">
+        <name>Chromium Ore</name>
+        <durability>20</durability>
+        <pos>13</pos>
+        <popup></popup>
+        <hp>28</hp>
+        <drop>Raw Chromium Ore</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="14">
+        <name>Aluminium Ore</name>
+        <durability>22</durability>
+        <pos>14</pos>
+        <popup></popup>
+        <hp>30</hp>
+        <drop>Raw Aluminium Ore</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="15">
+        <name>Silver Ore</name>
+        <durability>22</durability>
+        <pos>15</pos>
+        <popup></popup>
+        <hp>35</hp>
+        <drop>Raw Silver Ore</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="16">
+        <name>Gold Ore</name>
+        <durability>20</durability>
+        <pos>16</pos>
+        <popup></popup>
+        <hp>30</hp>
+        <drop>Raw Gold Ore</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="17">
+        <name>Diamond Ore</name>
+        <durability>30</durability>
+        <pos>17</pos>
+        <popup></popup>
+        <hp>50</hp>
+        <drop>Rough Diamond</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="18">
+        <name>Lead Ore</name>
+        <durability>22</durability>
+        <pos>18</pos>
+        <popup></popup>
+        <hp>35</hp>
+        <drop>Raw Lead Ore</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="19">
+        <name>Uranium Ore</name>
+        <durability>30</durability>
+        <pos>19</pos>
+        <popup></popup>
+        <hp>45</hp>
+        <drop>Radioactive nuggets</drop>
+        <dropcount>4</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="20">
+        <name>Sand</name>
+        <durability>5</durability>
+        <pos>20</pos>
+        <popup></popup>
+        <hp>5</hp>
+        <drop>Bucket of Sand</drop>
+        <dropcount>1</dropcount>
+        <require>Bucket</require>
+        <require>Shovel</require>
+    </block>
+    <block id="21">
+        <name>Sandstone</name>
+        <durability>10</durability>
+        <pos>21</pos>
+        <popup></popup>
+        <hp>10</hp>
+        <drop>Sandstone</drop>
+        <dropcount>1</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="22">
+        <name>Igneous Rock</name>
+        <durability>40</durability>
+        <pos>22</pos>
+        <popup></popup>
+        <hp>60</hp>
+        <drop>Obsidian Shard</drop>
+        <dropcount>2</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="23">
+        <name>Wood</name>
+        <durability>15</durability>
+        <pos>23</pos>
+        <popup></popup>
+        <hp>35</hp>
+        <drop>Wood</drop>
+        <dropcount>1</dropcount>
+        <require>Axe</require>
+    </block>
+    <block id="24">
+        <name>Wooden Panel</name>
+        <durability>10</durability>
+        <pos>24</pos>
+        <popup></popup>
+        <hp>15</hp>
+        <drop>Wooden Panel</drop>
+        <dropcount>1</dropcount>
+        <require>Axe</require>
+    </block>
+    
+    
+</root>
