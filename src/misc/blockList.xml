@@ -443,11 +443,20 @@ and open the template in the editor.
     <block id="43">
         <name>Steam Pipe</name>
         <durability>20</durability>
-        <pos>33</pos>
+        <pos></pos>
         <popup></popup>
         <hp>25</hp>
         <drop>Copper</drop>
         <dropcount>2</dropcount>
+    </block>
+    <block id="44">
+        <name>High Capacity Steam Pipe</name>
+        <durability>30</durability>
+        <pos></pos>
+        <popup></popup>
+        <hp>40</hp>
+        <drop>Copper</drop>
+        <dropcount>4</dropcount>
     </block>
     
 </root>
