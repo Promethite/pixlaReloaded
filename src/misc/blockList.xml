@@ -7,6 +7,10 @@ and open the template in the editor.
 
 
 <root>
+    
+    <!--
+    BASIC
+    -->
     <block id="0">
         <name>Grass</name>
         <durability>5</durability>
@@ -257,6 +261,193 @@ and open the template in the editor.
         <dropcount>1</dropcount>
         <require>Axe</require>
     </block>
+    <block id="25">
+        <name>Fire Crystal Ore</name>
+        <durability>13</durability>
+        <pos>25</pos>
+        <popup></popup>
+        <hp>25</hp>
+        <drop>Fire Shard</drop>
+        <dropcount>2</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="26">
+        <name>Water Crystal Ore</name>
+        <durability>13</durability>
+        <pos>26</pos>
+        <popup></popup>
+        <hp>25</hp>
+        <drop>Water Shard</drop>
+        <dropcount>2</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="27">
+        <name>Earth Crystal Ore</name>
+        <durability>13</durability>
+        <pos>27</pos>
+        <popup></popup>
+        <hp>25</hp>
+        <drop>Earth Shard</drop>
+        <dropcount>2</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="28">
+        <name>Air Crystal Ore</name>
+        <durability>13</durability>
+        <pos>28</pos>
+        <popup></popup>
+        <hp>25</hp>
+        <drop>Air Shard</drop>
+        <dropcount>2</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="29">
+        <name>Aether Crystal Ore</name>
+        <durability>13</durability>
+        <pos>29</pos>
+        <popup></popup>
+        <hp>25</hp>
+        <drop>Aether Shard</drop>
+        <dropcount>2</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="30">
+        <name>Dark Crystal Ore</name>
+        <durability>13</durability>
+        <pos>30</pos>
+        <popup></popup>
+        <hp>25</hp>
+        <drop>Void Shard</drop>
+        <dropcount>2</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="31">
+        <name>Cinnabar</name>
+        <durability>13</durability>
+        <pos>26</pos>
+        <popup></popup>
+        <hp>25</hp>
+        <drop>Cinnabar Dust</drop>
+        <dropcount>2</dropcount>
+        <require>Pickaxe</require>
+    </block>
+    <block id="32">
+        <name>Lava</name>
+        <durability>15</durability>
+        <pos>26</pos>
+        <popup></popup>
+        <hp>100</hp>
+        <drop>Container of Lava</drop>
+        <dropcount>1</dropcount>
+        <require>Advanced Container</require>
+    </block>
     
+    <!--
+    BASIC PROCESSING
+    -->
+    <block id="33">
+        <name>Campfire</name>
+        <durability>5</durability>
+        <pos>33</pos>
+        <popup></popup>
+        <hp>10</hp>
+        <drop>Ashes</drop>
+        <dropcount>2</dropcount>
+    </block>
+    <block id="34">
+        <name>Primitive Furnace</name>
+        <durability>10</durability>
+        <pos>34</pos>
+        <popup></popup>
+        <hp>15</hp>
+        <drop>Stones</drop>
+        <dropcount>2</dropcount>
+    </block>
+    <block id="35">
+        <name>Furnace</name>
+        <durability>20</durability>
+        <pos>35</pos>
+        <popup></popup>
+        <hp>30</hp>
+        <drop>Ashes</drop>
+        <dropcount>4</dropcount>
+    </block>
+    <block id="36">
+        <name>Metal Oven</name>
+        <durability>35</durability>
+        <pos>36</pos>
+        <popup></popup>
+        <hp>50</hp>
+        <drop>Scrap Metal</drop>
+        <dropcount>4</dropcount>
+    </block>
+    
+    <!--
+    TECHNICAL
+    -->
+    
+    <block id="37">
+        <name>Steam Boiler</name>
+        <durability>25</durability>
+        <pos>37</pos>
+        <popup></popup>
+        <hp>50</hp>
+        <drop>Raw Copper</drop>
+        <dropcount>4</dropcount>
+    </block>
+    <block id="38">
+        <name>Steam Hammer</name>
+        <durability>40</durability>
+        <pos>38</pos>
+        <popup></popup>
+        <hp>70</hp>
+        <drop>Scrap Parts</drop>
+        <dropcount>4</dropcount>
+    </block>
+    <block id="39">
+        <name>Steam Lathe</name>
+        <durability>35</durability>
+        <pos>39</pos>
+        <popup></popup>
+        <hp>50</hp>
+        <drop>Scrap Parts</drop>
+        <dropcount>5</dropcount>
+    </block>
+    <block id="40">
+        <name>Alloy Furnace</name>
+        <durability>40</durability>
+        <pos>40</pos>
+        <popup>Steam Assisted Coal Powered Metal Melter</popup>
+        <hp>70</hp>
+        <drop>Scrap Parts</drop>
+        <dropcount>5</dropcount>
+    </block>
+    <block id="41">
+        <name>Steam Compressor</name>
+        <durability>30</durability>
+        <pos>41</pos>
+        <popup></popup>
+        <hp>50</hp>
+        <drop>Scrap Parts</drop>
+        <dropcount>4</dropcount>
+    </block>
+    <block id="42">
+        <name>Steam Generator</name>
+        <durability>30</durability>
+        <pos>42</pos>
+        <popup></popup>
+        <hp>50</hp>
+        <drop>Scrap Parts</drop>
+        <dropcount>4</dropcount>
+    </block>
+    <block id="43">
+        <name>Steam Pipe</name>
+        <durability>20</durability>
+        <pos>33</pos>
+        <popup></popup>
+        <hp>25</hp>
+        <drop>Copper</drop>
+        <dropcount>2</dropcount>
+    </block>
     
 </root>
