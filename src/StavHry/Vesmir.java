@@ -1,9 +1,10 @@
 package StavHry;
 
-import TileMap.Background;
-import TileMap.TileMap;
+import Svet.Pozadi;
+import Svet.Mapa;
 import java.awt.Graphics2D;
 import java.awt.event.KeyEvent;
+import pixla.HerniPanel;
 
 /**
  *
@@ -11,8 +12,10 @@ import java.awt.event.KeyEvent;
  */
 public class Vesmir extends HerniStav {
 
-    private TileMap tileMap;
-    private Background bg;
+    private Mapa tileMap;
+    private Pozadi bg;
+    
+    //private Player player;
     
     public Vesmir(ManagerStavuHry gsm) {
         this.gsm = gsm;
@@ -20,23 +23,26 @@ public class Vesmir extends HerniStav {
 
     @Override
     synchronized public void init() {
-        tileMap = new TileMap(8);
+        tileMap = new Mapa(8);
         tileMap.loadTiles("/Backgrounds/grass2.png");
         tileMap.loadMap("/Maps/level1-1.map");
         tileMap.setPosition(0, 0);
         
-        bg = new Background("/Backgrounds/background.png", 1);
+        bg = new Pozadi("/Backgrounds/background.png", 1);
         bg.setVector(0.5, 0);
+        
+        /*player = new Player(tileMap);
+        player.setPosition(2, 100);*/
     }
 
     @Override
     synchronized public void update() {
         
         // update player
-        /*player.update();
-        tileMap.setPosition(
-                GamePanel.WIDTH / 2 - player.getX(),
-                GamePanel.HEIGHT / 2 - player.getY()
+        //player.update();
+        /*tileMap.setPosition(
+                HerniPanel.WIDTH / 2 - player.getX(),
+                HerniPanel.HEIGHT / 2 - player.getY()
         );*/
         bg.update();
         

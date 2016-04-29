@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<lod nazev="Shipaah">
+  <radek y="0">
+    <sloupek x="0">
+      <blok z="0" id="1"/>
+      <blok z="1" id="2"/>
+    </sloupek>
+    <sloupek x="1">
+      <blok z="0" id="1"/>
+      <blok z="1" id="0"/>
+    </sloupek>
+    <sloupek x="2">
+      <blok z="2" id="1"/>
+      <blok z="1" id="0"/>
+    </sloupek>
+  </radek>
+  <radek y="1">
+    <sloupek x="0">
+      <blok z="0" id="1"/>
+      <blok z="1" id="0"/>
+    </sloupek>
+    <sloupek x="1">
+      <blok z="0" id="1"/>
+      <blok z="1" id="2"/>
+    </sloupek>
+    <sloupek x="2">
+      <blok z="2" id="1"/>
+      <blok z="1" id="0"/>
+    </sloupek>
+  </radek>
+  <radek y="2">
+    <sloupek x="0">
+      <blok z="0" id="1"/>
+      <blok z="1" id="0"/>
+    </sloupek>
+    <sloupek x="1">
+      <blok z="0" id="1"/>
+      <blok z="1" id="0"/>
+    </sloupek>
+    <sloupek x="2">
+      <blok z="2" id="1"/>
+      <blok z="1" id="2"/>
+    </sloupek>
+  </radek>
+</lod>

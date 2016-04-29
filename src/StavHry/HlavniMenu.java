@@ -1,6 +1,6 @@
 package StavHry;
 
-import TileMap.Background;
+import Svet.Pozadi;
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics2D;
@@ -13,12 +13,13 @@ import pixla.HerniPanel;
  */
 public class HlavniMenu extends HerniStav{
     
-    private Background bg;
+    private Pozadi bg;
     
     
     private int currentChoice = 0;
     private String[] options = {
         "Start",
+        "Editor",
         "Help",
         "Quit"
     };
@@ -32,7 +33,7 @@ public class HlavniMenu extends HerniStav{
         this.gsm = gsm;
         
         try {
-            bg = new Background("/Backgrounds/background.png", 1);
+            bg = new Pozadi("/Backgrounds/background.png", 1);
             bg.setVector(-0.5, 0.5);
             
             titleColor = new Color(128, 0, 0);
@@ -79,9 +80,12 @@ public class HlavniMenu extends HerniStav{
                 gsm.setState(ManagerStavuHry.VESMIR);
             break;
             case 1:
-                // help
+                gsm.setState(ManagerStavuHry.EDITOR);
             break;
             case 2:
+                // help
+            break;
+            case 3:
                 System.exit(0);
             break;
         }

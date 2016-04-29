@@ -1,5 +1,6 @@
 package StavHry;
 
+import Svet.Objekt;
 import java.awt.Graphics2D;
 import java.util.ArrayList;
 
@@ -14,6 +15,7 @@ public class ManagerStavuHry {
     
     public static final int MENUSTATE = 0;
     public static final int VESMIR = 1;
+    public static final int EDITOR = 2;
     
     public ManagerStavuHry(){
         gameStates = new ArrayList<>();
@@ -21,6 +23,9 @@ public class ManagerStavuHry {
         currentState = MENUSTATE;
         gameStates.add(new HlavniMenu(this));
         gameStates.add(new Vesmir(this));
+        gameStates.add(new EditaceObjektu(this));
+        
+        Objekt o = new Objekt();
     }
     
     public void setState(int state){

@@ -1,4 +1,4 @@
-package TileMap;
+package Svet;
 
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
@@ -10,7 +10,7 @@ import pixla.HerniPanel;
  *
  * @author Ondřej Bleha
  */
-public class Background {
+public class Pozadi {
     
     private BufferedImage image;
     private BufferedImage image2;
@@ -22,7 +22,7 @@ public class Background {
     
     private double moveScale;
     
-    public Background(String file, double moveScale) {
+    public Pozadi(String file, double moveScale) {
         try {
             image = ImageIO.read(getClass().getResourceAsStream("/Resources" + file));
             image2 = ImageIO.read(getClass().getResourceAsStream("/Resources/Backgrounds/background2.png"));

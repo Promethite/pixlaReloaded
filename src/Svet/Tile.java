@@ -1,4 +1,4 @@
-package TileMap;
+package Svet;
 
 import java.awt.image.BufferedImage;
 

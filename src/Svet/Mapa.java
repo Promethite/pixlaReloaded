@@ -1,4 +1,4 @@
-package TileMap;
+package Svet;
 
 import java.awt.*;
 import java.awt.image.*;
@@ -8,7 +8,7 @@ import javax.imageio.ImageIO;
 
 import pixla.HerniPanel;
 
-public class TileMap {
+public class Mapa {
 	
 	// position
 	private double x;
@@ -41,7 +41,7 @@ public class TileMap {
 	private int numRowsToDraw;
 	private int numColsToDraw;
 	
-	public TileMap(int tileSize) {
+	public Mapa(int tileSize) {
 		this.tileSize = tileSize;
 		numRowsToDraw = HerniPanel.HEIGHT / tileSize + 2;
 		numColsToDraw = HerniPanel.WIDTH / tileSize + 2;
@@ -203,6 +203,14 @@ public class TileMap {
         }
 		
 	}
+
+    public double getX() {
+        return x;
+    }
+
+    public double getY() {
+        return y;
+    }
 	
 }
 
