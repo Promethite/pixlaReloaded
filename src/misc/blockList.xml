@@ -12,19 +12,19 @@ and open the template in the editor.
     BASIC
     -->
     <block id="0">
-        <name>Grass</name>
-        <durability>5</durability>
+        <name>Workshop</name>
+        <durability>10</durability>
         <pos>0</pos>
         <popup></popup>
         <hp>5</hp>
-        <drop>Grass</drop>
+        <drop>Wood</drop>
         <dropcount>1</dropcount>
     </block>
     <block id="1">
         <name>Dirt</name>
         <durability>5</durability>
         <pos>1</pos>
-        <popup></popup>
+        <popup>The cheapest material.</popup>
         <hp>5</hp>
         <drop>Dirt</drop>
         <dropcount>1</dropcount>
@@ -34,7 +34,7 @@ and open the template in the editor.
         <name>Stone</name>
         <durability>7</durability>
         <pos>2</pos>
-        <popup></popup>
+        <popup>Ultra common.</popup>
         <hp>10</hp>
         <drop>Gravel</drop>
         <dropcount>1</dropcount>
@@ -44,7 +44,7 @@ and open the template in the editor.
         <name>Gravel</name>
         <durability>5</durability>
         <pos>3</pos>
-        <popup></popup>
+        <popup>For pavements.</popup>
         <hp>5</hp>
         <drop>Flint</drop>
         <dropcount>4</dropcount>
@@ -214,7 +214,7 @@ and open the template in the editor.
         <name>Sand</name>
         <durability>5</durability>
         <pos>20</pos>
-        <popup></popup>
+        <popup>Beachy material.</popup>
         <hp>5</hp>
         <drop>Bucket of Sand</drop>
         <dropcount>1</dropcount>
@@ -225,7 +225,7 @@ and open the template in the editor.
         <name>Sandstone</name>
         <durability>10</durability>
         <pos>21</pos>
-        <popup></popup>
+        <popup>Compressed sand.</popup>
         <hp>10</hp>
         <drop>Sandstone</drop>
         <dropcount>1</dropcount>
@@ -235,7 +235,7 @@ and open the template in the editor.
         <name>Igneous Rock</name>
         <durability>40</durability>
         <pos>22</pos>
-        <popup></popup>
+        <popup>So hard!</popup>
         <hp>60</hp>
         <drop>Obsidian Shard</drop>
         <dropcount>2</dropcount>
@@ -245,7 +245,7 @@ and open the template in the editor.
         <name>Wood</name>
         <durability>15</durability>
         <pos>23</pos>
-        <popup></popup>
+        <popup>From a dead tree.</popup>
         <hp>35</hp>
         <drop>Wood</drop>
         <dropcount>1</dropcount>
@@ -255,7 +255,7 @@ and open the template in the editor.
         <name>Wooden Panel</name>
         <durability>10</durability>
         <pos>24</pos>
-        <popup></popup>
+        <popup>Lighter, but weaker.</popup>
         <hp>15</hp>
         <drop>Wooden Panel</drop>
         <dropcount>1</dropcount>
@@ -335,7 +335,7 @@ and open the template in the editor.
         <name>Lava</name>
         <durability>15</durability>
         <pos>26</pos>
-        <popup></popup>
+        <popup>Hot! Hot! Hot!</popup>
         <hp>100</hp>
         <drop>Container of Lava</drop>
         <dropcount>1</dropcount>
@@ -349,7 +349,7 @@ and open the template in the editor.
         <name>Campfire</name>
         <durability>5</durability>
         <pos>33</pos>
-        <popup></popup>
+        <popup>Cook meat and stuff.</popup>
         <hp>10</hp>
         <drop>Ashes</drop>
         <dropcount>2</dropcount>
@@ -358,7 +358,7 @@ and open the template in the editor.
         <name>Primitive Furnace</name>
         <durability>10</durability>
         <pos>34</pos>
-        <popup></popup>
+        <popup>Just enough to start.</popup>
         <hp>15</hp>
         <drop>Stones</drop>
         <dropcount>2</dropcount>
@@ -367,16 +367,16 @@ and open the template in the editor.
         <name>Furnace</name>
         <durability>20</durability>
         <pos>35</pos>
-        <popup></popup>
+        <popup>Buuuurn!</popup>
         <hp>30</hp>
         <drop>Ashes</drop>
         <dropcount>4</dropcount>
     </block>
     <block id="36">
-        <name>Metal Oven</name>
+        <name>Metal Forge</name>
         <durability>35</durability>
         <pos>36</pos>
-        <popup></popup>
+        <popup>Refine and shape metals.</popup>
         <hp>50</hp>
         <drop>Scrap Metal</drop>
         <dropcount>4</dropcount>
@@ -390,7 +390,7 @@ and open the template in the editor.
         <name>Steam Boiler</name>
         <durability>25</durability>
         <pos>37</pos>
-        <popup></popup>
+        <popup>Beware of pressure!</popup>
         <hp>50</hp>
         <drop>Raw Copper</drop>
         <dropcount>4</dropcount>
@@ -399,7 +399,7 @@ and open the template in the editor.
         <name>Steam Hammer</name>
         <durability>40</durability>
         <pos>38</pos>
-        <popup></popup>
+        <popup>Smash and crush.</popup>
         <hp>70</hp>
         <drop>Scrap Parts</drop>
         <dropcount>4</dropcount>
@@ -408,7 +408,7 @@ and open the template in the editor.
         <name>Steam Lathe</name>
         <durability>35</durability>
         <pos>39</pos>
-        <popup></popup>
+        <popup>Shape ingots.</popup>
         <hp>50</hp>
         <drop>Scrap Parts</drop>
         <dropcount>5</dropcount>
@@ -417,7 +417,7 @@ and open the template in the editor.
         <name>Alloy Furnace</name>
         <durability>40</durability>
         <pos>40</pos>
-        <popup>Steam Assisted Coal Powered Metal Melter</popup>
+        <popup>Steam Assisted Coal Powered Metal Melter.</popup>
         <hp>70</hp>
         <drop>Scrap Parts</drop>
         <dropcount>5</dropcount>
@@ -426,7 +426,7 @@ and open the template in the editor.
         <name>Steam Compressor</name>
         <durability>30</durability>
         <pos>41</pos>
-        <popup></popup>
+        <popup>Air inside a bottle.</popup>
         <hp>50</hp>
         <drop>Scrap Parts</drop>
         <dropcount>4</dropcount>
@@ -435,7 +435,7 @@ and open the template in the editor.
         <name>Steam Generator</name>
         <durability>30</durability>
         <pos>42</pos>
-        <popup></popup>
+        <popup>Shocking!</popup>
         <hp>50</hp>
         <drop>Scrap Parts</drop>
         <dropcount>4</dropcount>
@@ -444,7 +444,7 @@ and open the template in the editor.
         <name>Steam Pipe</name>
         <durability>20</durability>
         <pos></pos>
-        <popup></popup>
+        <popup>Transfer your steam.</popup>
         <hp>25</hp>
         <drop>Copper</drop>
         <dropcount>2</dropcount>
@@ -453,7 +453,7 @@ and open the template in the editor.
         <name>High Capacity Steam Pipe</name>
         <durability>30</durability>
         <pos></pos>
-        <popup></popup>
+        <popup>Even more steam!</popup>
         <hp>40</hp>
         <drop>Copper</drop>
         <dropcount>4</dropcount>
