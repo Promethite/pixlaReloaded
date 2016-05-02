@@ -353,6 +353,8 @@ and open the template in the editor.
         <hp>10</hp>
         <drop>Ashes</drop>
         <dropcount>2</dropcount>
+        <time>600</time>
+        <env>exhaust</env>
     </block>
     <block id="34">
         <name>Primitive Furnace</name>
@@ -371,6 +373,7 @@ and open the template in the editor.
         <hp>30</hp>
         <drop>Ashes</drop>
         <dropcount>4</dropcount>
+        <dismantle>true</dismantle>
     </block>
     <block id="36">
         <name>Metal Forge</name>
@@ -380,10 +383,11 @@ and open the template in the editor.
         <hp>50</hp>
         <drop>Scrap Metal</drop>
         <dropcount>4</dropcount>
+        <dismantle>true</dismantle>
     </block>
     
     <!--
-    TECHNICAL
+    STEAM
     -->
     
     <block id="37">
@@ -394,6 +398,7 @@ and open the template in the editor.
         <hp>50</hp>
         <drop>Raw Copper</drop>
         <dropcount>4</dropcount>
+        <dismantle>true</dismantle>
     </block>
     <block id="38">
         <name>Steam Hammer</name>
@@ -403,6 +408,7 @@ and open the template in the editor.
         <hp>70</hp>
         <drop>Scrap Parts</drop>
         <dropcount>4</dropcount>
+        <dismantle>true</dismantle>
     </block>
     <block id="39">
         <name>Steam Lathe</name>
@@ -412,6 +418,7 @@ and open the template in the editor.
         <hp>50</hp>
         <drop>Scrap Parts</drop>
         <dropcount>5</dropcount>
+        <dismantle>true</dismantle>
     </block>
     <block id="40">
         <name>Alloy Furnace</name>
@@ -421,6 +428,7 @@ and open the template in the editor.
         <hp>70</hp>
         <drop>Scrap Parts</drop>
         <dropcount>5</dropcount>
+        <dismantle>true</dismantle>
     </block>
     <block id="41">
         <name>Steam Compressor</name>
@@ -430,6 +438,7 @@ and open the template in the editor.
         <hp>50</hp>
         <drop>Scrap Parts</drop>
         <dropcount>4</dropcount>
+        <dismantle>true</dismantle>
     </block>
     <block id="42">
         <name>Steam Generator</name>
@@ -439,24 +448,261 @@ and open the template in the editor.
         <hp>50</hp>
         <drop>Scrap Parts</drop>
         <dropcount>4</dropcount>
+        <dismantle>true</dismantle>
     </block>
     <block id="43">
         <name>Steam Pipe</name>
         <durability>20</durability>
-        <pos></pos>
+        <pos>43</pos>
         <popup>Transfer your steam.</popup>
         <hp>25</hp>
         <drop>Copper</drop>
         <dropcount>2</dropcount>
+        <dismantle>true</dismantle>
     </block>
     <block id="44">
         <name>High Capacity Steam Pipe</name>
         <durability>30</durability>
-        <pos></pos>
+        <pos>44</pos>
         <popup>Even more steam!</popup>
         <hp>40</hp>
         <drop>Copper</drop>
         <dropcount>4</dropcount>
+        <dismantle>true</dismantle>
     </block>
+    <block id="45">
+        <name>Steam Vent</name>
+        <durability>20</durability>
+        <pos>45</pos>
+        <popup>Worthy investment, unless you are a developer.</popup>
+        <hp>30</hp>
+        <drop>Scrap parts</drop>
+        <dropcount>2</dropcount>
+        <dismantle>true</dismantle>
+    </block>
+    <block id="46">
+        <name>Regenerator Steam Vent</name>
+        <durability>30</durability>
+        <pos>46</pos>
+        <popup>Keep you warm in the winter.</popup>
+        <hp>40</hp>
+        <drop>Scrap Parts</drop>
+        <dropcount>4</dropcount>
+        <dismantle>true</dismantle>
+        <env>exhaust</env>
+    </block>
+    
+    <!--
+    FURNITURE
+    -->
+    <block id="47">
+        <name>Door</name>
+        <durability>20</durability>
+        <pos>47</pos>
+        <popup>Everyone needs it.</popup>
+        <hp>20</hp>
+        <drop>Door</drop>
+        <dropcount>1</dropcount>
+    </block>
+    <block id="48">
+        <name>Window</name>
+        <durability>5</durability>
+        <pos>48</pos>
+        <popup>Let the daylight in.</popup>
+        <hp>4</hp>
+        <drop>Window</drop>
+        <dropcount>1</dropcount>
+    </block>
+    <block id="49">
+        <name>Glass</name>
+        <durability>3</durability>
+        <pos>49</pos>
+        <popup>Very fragile.</popup>
+        <hp>3</hp>
+        <drop>Glass</drop>
+        <dropcount>1</dropcount>
+    </block>
+    <block id="50">
+        <name>Torch</name>
+        <durability>3</durability>
+        <pos>50</pos>
+        <popup>Provides some light.</popup>
+        <hp>3</hp>
+        <drop>Torch</drop>
+        <dropcount>1</dropcount>
+        <time>3600</time> <!--Durability time in seconds -->
+    </block>
+    <block id="51">
+        <name>Fireplace</name>
+        <durability>15</durability>
+        <pos>51</pos>
+        <popup>Home sweet home.</popup>
+        <hp>20</hp>
+        <drop>Fireplace</drop>
+        <dropcount>1</dropcount>
+        <env>exhaust</env>
+    </block>
+    <block id="52">
+        <name>Crude Storage</name>
+        <durability>10</durability>
+        <pos>52</pos>
+        <popup>Safer than your backpack</popup>
+        <hp>10</hp>
+        <drop>Crude Storage</drop>
+        <dropcount>1</dropcount>
+    </block>
+    <block id="53">
+        <name>Wooden Table</name>
+        <durability>10</durability>
+        <pos>53</pos>
+        <popup>The basics.</popup>
+        <hp>10</hp>
+        <drop>Table</drop>
+        <dropcount>1</dropcount>
+    </block>
+    <block id="54">
+        <name>Chair</name>
+        <durability>10</durability>
+        <pos>54</pos>
+        <popup>Comfy.</popup>
+        <hp>10</hp>
+        <drop>Chair</drop>
+        <dropcount>1</dropcount>
+    </block>
+    <block id="55">
+        <name>Bed</name>
+        <durability>10</durability>
+        <pos>55</pos>
+        <popup>Enjoy some sleep.</popup>
+        <hp>20</hp>
+        <drop>Bed</drop>
+        <dropcount>1</dropcount>
+    </block>
+    <block id="56">
+        <name>Oil Lamp</name>
+        <durability>3</durability>
+        <pos>56</pos>
+        <popup>Brighter light.</popup>
+        <hp>3</hp>
+        <drop>Oil Lamp</drop>
+        <dropcount>1</dropcount>
+    </block>
+    <block id="57">
+        <name>Oil Floodlight</name>
+        <durability>5</durability>
+        <pos>57</pos>
+        <popup>Focus on it.</popup>
+        <hp>5</hp>
+        <drop>Oil Floodlight</drop>
+        <dropcount>1</dropcount>
+    </block>
+    <block id="58">
+        <name>Panzer Door</name>
+        <durability>50</durability>
+        <pos>58</pos>
+        <popup>Blast-proof?</popup>
+        <hp>100</hp>
+        <drop>Panzer Door</drop>
+        <dropcount>1</dropcount>
+        <dismantle>true</dismantle> //Can be wrenched for instant dismantling
+    </block>
+    <block id="59">
+        <name>Panzer Block</name>
+        <durability>70</durability>
+        <pos>59</pos>
+        <popup>Blast-proof?</popup>
+        <hp>150</hp>
+        <drop>Panzer Block</drop>
+        <dropcount>1</dropcount>
+        <dismantle>true</dismantle>
+    </block>
+    
+    <!--
+    ELECTRICITY
+    -->
+    
+        <!--GENERATORS-->
+        <block id="60">
+            <name>Solar Panel</name>
+            <durability>30</durability>
+            <pos>60</pos>
+            <popup>Collect free energy.</popup>
+            <hp>40</hp>
+            <drop>Solar Panel</drop>
+            <dropcount>1</dropcount>
+            <dismantle>true</dismantle>
+            <Eoutput>5</Eoutput> //Energy Output level
+            <env>daylight</env> //Enviromental requirements
+        </block>
+        <block id="61">
+            <name>Wind Turbine</name>
+            <durability>30</durability>
+            <pos>61</pos>
+            <popup>Powers up when windy.</popup>
+            <hp>40</hp>
+            <drop>Wind Turbine</drop>
+            <dropcount>1</dropcount>
+            <dismantle>true</dismantle>
+            <Eoutput>10</Eoutput>
+            <env>rain</env>
+        </block>
+        <block id="62">
+            <name>Biofuel Generator</name>
+            <durability>30</durability>
+            <pos>62</pos>
+            <popup>Your waste turned into energy.</popup>
+            <hp>40</hp>
+            <drop>Biofuel Generator</drop>
+            <dropcount>1</dropcount>
+            <dismantle>true</dismantle>
+            <Eoutput>25</Eoutput>
+        </block>
+        <block id="63">
+            <name>Thermal Generator</name>
+            <durability>30</durability>
+            <pos>63</pos>
+            <popup>Let it burn!</popup>
+            <hp>40</hp>
+            <drop>Thermal Generator</drop>
+            <dropcount>1</dropcount>
+            <dismantle>true</dismantle>
+            <Eoutput>50</Eoutput>
+            <env>exhaust</env>
+        </block>
+        <block id="64">
+            <name>Lava Fueled Thermocell</name>
+            <durability>40</durability>
+            <pos>64</pos>
+            <popup>So hot!</popup>
+            <hp>100</hp>
+            <drop>Lava Fueled Thermocell</drop>
+            <dropcount>1</dropcount>
+            <dismantle>true</dismantle>
+            <Eoutput>75</Eoutput>
+            <env>exhaust</env>
+        </block>
+        <block id="65">
+            <name>RTG Generator</name>
+            <durability>80</durability>
+            <pos>65</pos>
+            <popup>Tick tick tick...</popup>
+            <hp>150</hp>
+            <drop>RTG Generator</drop>
+            <dropcount>1</dropcount>
+            <dismantle>true</dismantle>
+            <Eoutput>75</Eoutput>
+            <env>rad</env>
+        </block>
+        <block id="66">
+            <name>Hydrogen Power Plant</name>
+            <durability>50</durability>
+            <pos>66</pos>
+            <popup>H2O H2O H2O!</popup>
+            <hp>100</hp>
+            <drop>Hydrogen Power Plant</drop>
+            <dropcount>1</dropcount>
+            <dismantle>true</dismantle>
+            <Eoutput>100</Eoutput>
+        </block>
     
 </root>
